@@ -1,0 +1,86 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e8e8e8;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+input[type="text"], input[type="submit"], button {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+    input[type="submit"]:hover, button:hover {
+        background-color: #4cae4c;
+    }
+
+#editForm {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+    #editForm input[type="text"] {
+        width: calc(100% - 120px);
+    }
+
+    #editForm a {
+        margin-left: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        color: #d9534f;
+    }
+
+        #editForm a:hover {
+            color: #c9302c;
+        }
+
+button.delete-button {
+    background-color: #d9534f;
+}
+
+    button.delete-button:hover {
+        background-color: #c9302c;
+    }
